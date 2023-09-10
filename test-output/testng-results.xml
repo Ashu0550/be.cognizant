@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-03T10:16:38 IST" name="Suite" finished-at="2022-06-03T10:17:50 IST" duration-ms="71454">
+    <groups>
+      <group name="Regression">
+        <method signature="CognizantAppsAndTools.captureAppsAndToolsTest()[pri:3, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" name="captureAppsAndToolsTest" class="com.Cognizant.TestScenarios.CognizantAppsAndTools"/>
+        <method signature="CognizantAppsAndTools.captureScreenTest()[pri:1, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" name="captureScreenTest" class="com.Cognizant.TestScenarios.CognizantAppsAndTools"/>
+        <method signature="CognizantAppsAndTools.getAppsAndToolsTest(java.lang.String)[pri:2, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" name="getAppsAndToolsTest" class="com.Cognizant.TestScenarios.CognizantAppsAndTools"/>
+        <method signature="CognizantAppsAndTools.setWindowTest()[pri:0, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" name="setWindowTest" class="com.Cognizant.TestScenarios.CognizantAppsAndTools"/>
+      </group> <!-- Regression -->
+      <group name="BaseMethods">
+        <method signature="LoginCognizant.approvalTest()[pri:2, instance:com.Cognizant.TestScenarios.LoginCognizant@7fee8714]" name="approvalTest" class="com.Cognizant.TestScenarios.LoginCognizant"/>
+        <method signature="LoginCognizant.setPasswordTest()[pri:1, instance:com.Cognizant.TestScenarios.LoginCognizant@7fee8714]" name="setPasswordTest" class="com.Cognizant.TestScenarios.LoginCognizant"/>
+        <method signature="LoginCognizant.setUserIdTest()[pri:0, instance:com.Cognizant.TestScenarios.LoginCognizant@7fee8714]" name="setUserIdTest" class="com.Cognizant.TestScenarios.LoginCognizant"/>
+      </group> <!-- BaseMethods -->
+      <group name="Smoke">
+        <method signature="CognizantStockPriceDetails.captureNewWindowScreenTest()[pri:4, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" name="captureNewWindowScreenTest" class="com.Cognizant.TestScenarios.CognizantStockPriceDetails"/>
+        <method signature="CognizantStockPriceDetails.captureScreenTest()[pri:1, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" name="captureScreenTest" class="com.Cognizant.TestScenarios.CognizantStockPriceDetails"/>
+        <method signature="CognizantStockPriceDetails.compareStockPriceTest()[pri:5, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" name="compareStockPriceTest" class="com.Cognizant.TestScenarios.CognizantStockPriceDetails"/>
+        <method signature="CognizantStockPriceDetails.getCognizantStockPriceTest()[pri:2, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" name="getCognizantStockPriceTest" class="com.Cognizant.TestScenarios.CognizantStockPriceDetails"/>
+        <method signature="CognizantStockPriceDetails.getGoogleStockPriceTest()[pri:3, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" name="getGoogleStockPriceTest" class="com.Cognizant.TestScenarios.CognizantStockPriceDetails"/>
+        <method signature="CognizantStockPriceDetails.getUserInfoTest()[pri:0, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" name="getUserInfoTest" class="com.Cognizant.TestScenarios.CognizantStockPriceDetails"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-06-03T10:16:38 IST" name="Test" finished-at="2022-06-03T10:17:50 IST" duration-ms="71454">
+      <class name="com.Cognizant.TestScenarios.LoginCognizant">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Cognizant.TestScenarios.LoginCognizant@7fee8714]" started-at="2022-06-03T10:16:38 IST" name="beforeClass" finished-at="2022-06-03T10:16:44 IST" duration-ms="5574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="setUserIdTest()[pri:0, instance:com.Cognizant.TestScenarios.LoginCognizant@7fee8714]" started-at="2022-06-03T10:16:44 IST" name="setUserIdTest" finished-at="2022-06-03T10:16:50 IST" duration-ms="6187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUserIdTest -->
+        <test-method signature="setPasswordTest()[pri:1, instance:com.Cognizant.TestScenarios.LoginCognizant@7fee8714]" started-at="2022-06-03T10:16:50 IST" name="setPasswordTest" finished-at="2022-06-03T10:16:55 IST" duration-ms="4835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPasswordTest -->
+        <test-method signature="approvalTest()[pri:2, instance:com.Cognizant.TestScenarios.LoginCognizant@7fee8714]" started-at="2022-06-03T10:16:55 IST" name="approvalTest" finished-at="2022-06-03T10:17:25 IST" duration-ms="29836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approvalTest -->
+      </class> <!-- com.Cognizant.TestScenarios.LoginCognizant -->
+      <class name="com.Cognizant.TestScenarios.CognizantStockPriceDetails">
+        <test-method signature="getUserInfoTest()[pri:0, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" started-at="2022-06-03T10:17:25 IST" name="getUserInfoTest" finished-at="2022-06-03T10:17:25 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfoTest -->
+        <test-method signature="captureScreenTest()[pri:1, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" started-at="2022-06-03T10:17:25 IST" name="captureScreenTest" finished-at="2022-06-03T10:17:28 IST" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenTest -->
+        <test-method signature="getCognizantStockPriceTest()[pri:2, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" started-at="2022-06-03T10:17:28 IST" name="getCognizantStockPriceTest" finished-at="2022-06-03T10:17:28 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCognizantStockPriceTest -->
+        <test-method signature="getGoogleStockPriceTest()[pri:3, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" started-at="2022-06-03T10:17:28 IST" name="getGoogleStockPriceTest" finished-at="2022-06-03T10:17:39 IST" duration-ms="10635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGoogleStockPriceTest -->
+        <test-method signature="captureNewWindowScreenTest()[pri:4, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" started-at="2022-06-03T10:17:39 IST" name="captureNewWindowScreenTest" finished-at="2022-06-03T10:17:41 IST" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureNewWindowScreenTest -->
+        <test-method signature="compareStockPriceTest()[pri:5, instance:com.Cognizant.TestScenarios.CognizantStockPriceDetails@6283d8b8]" started-at="2022-06-03T10:17:41 IST" name="compareStockPriceTest" finished-at="2022-06-03T10:17:41 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareStockPriceTest -->
+      </class> <!-- com.Cognizant.TestScenarios.CognizantStockPriceDetails -->
+      <class name="com.Cognizant.TestScenarios.CognizantAppsAndTools">
+        <test-method signature="setWindowTest()[pri:0, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" started-at="2022-06-03T10:17:41 IST" name="setWindowTest" finished-at="2022-06-03T10:17:41 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWindowTest -->
+        <test-method signature="captureScreenTest()[pri:1, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" started-at="2022-06-03T10:17:41 IST" name="captureScreenTest" finished-at="2022-06-03T10:17:44 IST" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenTest -->
+        <test-method signature="getAppsAndToolsTest(java.lang.String)[pri:2, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" started-at="2022-06-03T10:17:46 IST" name="getAppsAndToolsTest" data-provider="dp" finished-at="2022-06-03T10:17:47 IST" duration-ms="831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[company apps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAppsAndToolsTest -->
+        <test-method signature="captureAppsAndToolsTest()[pri:3, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" started-at="2022-06-03T10:17:47 IST" name="captureAppsAndToolsTest" finished-at="2022-06-03T10:17:49 IST" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAppsAndToolsTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Cognizant.TestScenarios.CognizantAppsAndTools@3b6ddd1d]" started-at="2022-06-03T10:17:49 IST" name="afterClass" finished-at="2022-06-03T10:17:50 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Cognizant.TestScenarios.CognizantAppsAndTools -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
